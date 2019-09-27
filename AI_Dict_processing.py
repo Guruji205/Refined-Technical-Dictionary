@@ -6,7 +6,7 @@
 
 import os
 f=open("/home/nupur/internship/Refined-Technical-Dictionary/Computer_Science_Glossary_(English-Hindi)","r")
-final=open("home/nupur/internship/Refined-Technical-Dictionary/Final_Computer_Science_Glossary_(English-Hindi)","w")
+final=open("/home/nupur/internship/Refined-Technical-Dictionary/Final_Computer_Science_Glossary_English-Hindi","w+")
 AIdict=f.read().split("\n")
 #print(AIdict)
 
